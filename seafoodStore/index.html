@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="icon" href="/image/icon.png">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+  </head>
+  <body>
+    <header>
+        <div class="nav">
+            <img class="headIcon" src="/image/emblem.png">
+            <div>
+                <ul class="menu">
+                    <li><a href="/index.html" class="menu1">Главная</a></li>
+                    <li class="dropdown">
+                      <a href="/assortment.html" class="menu1">Асортимент</a>
+                      <ul class="submenu">
+                        <li class="submenu1"><a href="/assortmentProduct/OceanFish.html">Морская рыба</a></li>
+                        <li class="submenu1"><a href="#">Осьминог</a></li>
+                        <li class="submenu1"><a href="#">Краб</a></li>
+                        <li class="submenu1"><a href="#">Океаническая рыба</a></li>
+                        <li class="submenu1"><a href="#">Креветки</a></li>
+                        <li><a href="#">Мидии</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="menu1">Про нас</a></li>
+                  </ul>
+            </div>
+            <div class="menuIcon2">
+                <a href="/assortmentProduct/cart.html"><img class="menuIcon1 Bag" src="/image/Bag.png"></a>
+                <img class="menuIcon1" src="/image/question-mark.png">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mail"><img class="mailIcon" src="/image/mail.png"></div>
+        <div class="blackout"></div>
+        <div class="col1"></div>
+        <div class="col2"></div>
+        <div class="text-all"><h1 class="text1">Только свежие<br>предложения<br></h1><h1 class="text2">от наших партнеров</h1></div>
+        <div class="image-gallery">
+            <button id="prevBtn"></button>
+              <img id="galleryImage" src="/image/gallery_1.png" alt="Фото галереи">
+            <button id="nextBtn"></button>
+        </div>
+    </main>
+    <script src="code.js"></script>
+  </body>
+</html>
